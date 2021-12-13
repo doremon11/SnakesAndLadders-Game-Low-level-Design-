@@ -1,2 +1,3 @@
 # SnakesAndLadders-Game Low-level-Design
-![SnakeAndLadder](https://user-images.githubusercontent.com/72811328/145755824-e5acb4fe-4ac5-4c4c-a2bb-06cfa8523c5a.png)
+![2021-12-13-10-35-33](https://user-images.githubusercontent.com/72811328/145755959-3fae3115-9b2e-4ca4-808b-2cbca0e9a53d.png)
+
