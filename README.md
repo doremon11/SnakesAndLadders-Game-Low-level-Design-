@@ -25,9 +25,11 @@
   javac Main.java
   
   java Main 
-  
+# Video Link
+ https://www.awesomescreenshot.com/video/6414512?key=affc44c2258a7803b63959478140c991
 # Output of the game
 ![2021-12-13-10-35-33](https://user-images.githubusercontent.com/72811328/145755959-3fae3115-9b2e-4ca4-808b-2cbca0e9a53d.png)
+
 
 
 
