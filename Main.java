@@ -25,8 +25,8 @@ public class Main {
         System.out.println("Enter No of Snakes :");
         int ns = sc.nextInt();
         for(int i=0;i<ns;i++){
-            SnakeandLadder snake1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
-            snakes.add(snake1);
+            SnakeandLadder ladder1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
+            snakes.add(ladder1);
       }
       List<SnakeandLadder> ladders = new ArrayList<>();
       System.out.println("Enter No of Ladders :");
