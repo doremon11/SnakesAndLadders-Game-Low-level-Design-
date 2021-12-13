@@ -1,5 +1,7 @@
 # SnakesAndLadders-Game Low-level-Design
    A worldwide classic board game! Navigate your piece from start to finish, avoid the snakes, and take shortcuts going up the ladders.
+   ![image](https://user-images.githubusercontent.com/72811328/145766133-7759017c-11e1-4f2b-82a9-209e31739611.png)
+
 # Problem- Statement
    Creating a snake and ladder application.
 
