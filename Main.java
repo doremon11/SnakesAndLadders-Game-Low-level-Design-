@@ -25,15 +25,15 @@ public class Main {
         System.out.println("Enter No of Snakes :");
         int ns = sc.nextInt();
         for(int i=0;i<ns;i++){
-            SnakeandLadder ladder1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
-            snakes.add(ladder1);
+            SnakeandLadder snake1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
+            snakes.add(snake1);
       }
       List<SnakeandLadder> ladders = new ArrayList<>();
       System.out.println("Enter No of Ladders :");
       int nl = sc.nextInt();
       for(int i=0;i<nl;i++){
-          SnakeandLadder snake1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
-          snakes.add(snake1);
+          SnakeandLadder ladder1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
+          snakes.add(ladder1);
     }
         Gameboard gb=new Gameboard(dice,allPlayers,snakes,ladders,playersCurrPos,a);
         gb.startGame();
