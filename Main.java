@@ -3,8 +3,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-         public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
         System.out.println("Hey! Welcome to snakeandLadders game ");
         System.out.println("Enter No of players :");
         int n = sc.nextInt();
@@ -21,10 +19,13 @@ public class Main {
         Dice dice = new Dice(sc.nextInt());
         System.out.println("Enter the Board Size");
         int a= sc.nextInt();
+        
+        System.out.println(allPlayers.peek());
         List<SnakeandLadder> snakes = new ArrayList<>();
         System.out.println("Enter No of Snakes :");
         int ns = sc.nextInt();
         for(int i=0;i<ns;i++){
+
             SnakeandLadder snake1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
             snakes.add(snake1);
       }
@@ -33,7 +34,7 @@ public class Main {
       int nl = sc.nextInt();
       for(int i=0;i<nl;i++){
           SnakeandLadder ladder1 = new SnakeandLadder(sc.nextInt(),sc.nextInt());
-          snakes.add(ladder1);
+          snakes.add(ladders1);
     }
         Gameboard gb=new Gameboard(dice,allPlayers,snakes,ladders,playersCurrPos,a);
         gb.startGame();
